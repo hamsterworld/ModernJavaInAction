@@ -1,4 +1,4 @@
-package Ch4.common;
+package common;
 
 public class Dish {
     private final String name;

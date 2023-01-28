@@ -1,7 +1,7 @@
 package Ch4.part4_3.part4_3_2;
 
-import Ch4.common.Dish;
-import Ch4.common.Menu;
+import common.Dish;
+import common.Menu;
 
 import java.util.ArrayList;
 import java.util.Iterator;
