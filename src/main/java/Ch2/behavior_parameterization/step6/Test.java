@@ -16,4 +16,9 @@ public class Test {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        ArrayList<Apple> appleList = new ArrayList<>();
+        List<Apple> filterList = filter(appleList,a -> a.getWeight() > 150);
+    }
 }
