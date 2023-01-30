@@ -195,6 +195,5 @@ public class example1 {
         example1.case10();
         example1.case11();
         example1.case12();
-        example1.case13();
     }
 }
