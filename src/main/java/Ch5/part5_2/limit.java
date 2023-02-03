@@ -6,6 +6,9 @@ import common.Menu;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static java.util.stream.Collectors.*;
+
+// stream 2개나오면 끝 그것만 List 화 한다.
 public class limit {
 
     // limit 는 최대 n 개요소를 반환한다. 조건과 일치하는 처음 세요소를 즉시 다음결과로 반환한다.
@@ -17,7 +20,7 @@ public class limit {
                             System.out.println(d.getName());
                             return d.getCalories() > 300;
                         })
-                        .limit(3).collect(Collectors.toList());
+                        .limit(2).collect(toList());
         System.out.println(collect);
     }
 

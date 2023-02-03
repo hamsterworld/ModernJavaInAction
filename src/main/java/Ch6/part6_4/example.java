@@ -61,7 +61,6 @@ public class example {
     }
 
 
-
     public static void main(String[] args) {
         example example = new example();
         example.case1();
