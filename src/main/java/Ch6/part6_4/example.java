@@ -12,6 +12,7 @@ import java.util.stream.IntStream;
 
 /**
  * partitioningBy 에 대해서 알아보자.
+ * 애네도 보면 대부분 Map 이다.
  */
 public class example {
 

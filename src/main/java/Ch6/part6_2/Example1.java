@@ -8,6 +8,12 @@ import java.util.IntSummaryStatistics;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * Collectors 로 part5 에서봤던 여러가지 기능을 수행할수있다.
+ * ex) reducing, count, comparable,...and so on
+ *
+ * 즉, 같은 연산도 다양한 방식으로 수행할수있다는 것이다.
+ */
 public class Example1 {
 
     // 일반적인 카운팅

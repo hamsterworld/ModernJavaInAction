@@ -56,7 +56,7 @@ public class primitiveStream {
                                 .mapToObj(b -> new int[]{a, b, (int) Math.sqrt(a * a + b * b)})
                 ); // IntStream 이므로 mapToObj 로 stream<R> 을위해 바꿔준다.
 
-        stream.limit(5).forEach(t -> System.out.println(t[0] + ", " + t[1] +", " + t[2]));
+        stream.limit(10).forEach(t -> System.out.println(t[0] + ", " + t[1] +", " + t[2]));
 
     }
 

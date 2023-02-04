@@ -1,0 +1,16 @@
+ch5,6 에 대한 최종 정리본.
+
+
+1. map,flatmap,count 등등은 stream 의 매서드로도 사용되고, collector 에서도 매서드로 구현되어있다.
+필요에 맞게 사용하는것이 중요하다.
+
+2. 쇼트커트 였나? limit,findFirst 등등 무한 스트림에서 자주사용된다.
+
+3.
+
+    3-1. Collector.Mapping         (뭐로 변환?,변환후 collections 에 어떻게 담을지? List,Set 등등)
+         Collector.flatMapping     (뭐로 변환?,변환후 collections 에 어떻게 담을지? List,Set 등등)
+         Collector.filtering       (뭐를 필터?,필터후 collections 에 어떻게 담을지? List,Set 등등)
+         Collector.groupingBy      (key,Value 여기는 downStream 이다. 그래서 다단계수집형태가 될수도있다.)
+         Collector.partitioningBy  (True/False,Value 여기는 downStream 이다. 그래서 다단계수집형태가 될수도있다.)
+         Collector.

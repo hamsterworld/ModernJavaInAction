@@ -10,6 +10,7 @@ import static java.util.Arrays.asList;
 
 /**
  * 꼭 사용법을 알아두어야할것들 [ABC]
+ * Map 과 굉장히 관련이 깊은거 같기도하고
  */
 public class example1 {
 
@@ -17,6 +18,7 @@ public class example1 {
         DIET,NORMAL,FAT
     }
 
+    // 기본값은 Map key,value value 는 List 인듯?
     public void case1(){
         Map<Dish.Type, List<Dish>> map = Menu.menu.stream().collect(Collectors.groupingBy(Dish::getType));
         System.out.println(map);
@@ -59,7 +61,6 @@ public class example1 {
     public void case5(){
         Map<Dish.Type, List<String>> collect = Menu.menu.stream().
                 collect(Collectors.groupingBy(Dish::getType, Collectors.mapping(Dish::getName, Collectors.toList())));
-
         System.out.println(collect);
     }
 
@@ -80,6 +81,7 @@ public class example1 {
         // flatMap 을 잘보면 stream<List<String>> 으로 나온것을 stream<String> 으로 평탄화한다.
         Map<Dish.Type, Set<String>> collect = Menu.menu.stream().
                 collect(Collectors.groupingBy(Dish::getType, Collectors.flatMapping(dish -> dishTags.get(dish.getName()).stream(), Collectors.toSet())));
+
         System.out.println(collect);
     }
 

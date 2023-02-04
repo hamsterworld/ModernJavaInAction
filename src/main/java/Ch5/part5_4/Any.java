@@ -9,6 +9,7 @@ public class Any {
 
     public void case1(){
         Optional<Dish> any = Menu.menu.stream().filter(Dish::isVegetrian).findAny();
+        System.out.println(any);
     }
 
     public void case2(){
@@ -16,7 +17,13 @@ public class Any {
     }
 
     public void case3(){
-        Optional<Dish> first = Menu.menu.stream().filter(Dish::isVegetrian).findFirst();
-        System.out.println(first.get());
+        Menu.menu.stream().filter(Dish::isVegetrian).findFirst().ifPresent(System.out::println);
+    }
+
+    public static void main(String[] args) {
+        Any any = new Any();
+        any.case1();
+        any.case2();
+        any.case3();
     }
 }

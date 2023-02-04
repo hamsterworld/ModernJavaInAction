@@ -11,6 +11,5 @@ public class Example {
     public static void main(String[] args) {
         List<Transaction> transactions = new ArrayList<>();
         List<Transaction> collect = transactions.stream().collect(Collectors.toList());
-
     }
 }

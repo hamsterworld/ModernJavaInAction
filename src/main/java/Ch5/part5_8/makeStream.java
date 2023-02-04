@@ -3,6 +3,9 @@ package Ch5.part5_8;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+/**
+ * 스트림을 만들어보자.
+ */
 public class makeStream {
 
     // 값으로 스트림 만들기
@@ -60,6 +63,7 @@ public class makeStream {
 
         // 쇼트서킷을 사용해야한다.
         Stream.generate(Math::random).limit(5).sorted().forEach(System.out::println);
+
     }
 
     public static void main(String[] args) {

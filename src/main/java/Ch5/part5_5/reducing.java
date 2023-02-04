@@ -15,6 +15,7 @@ public class reducing {
     // 초기값 없음
     // 초기값이 없을땐 왜 Optional?
     // 데이터소스가 아무것도없다면 null 일수도 있기때문이다.
+    // 초기값조차 없다면 값자체가 없기에 Optional 을 반환한다.
     public void case2(){
         int[] ints = {1, 2, 3, 4, 5};
         OptionalInt reduce1 = Arrays.stream(ints).reduce((a, b) -> a + b);
