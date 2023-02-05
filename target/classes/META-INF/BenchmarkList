@@ -1,0 +1,5 @@
+JMH S 29 Ch7.part7_1.BenchmarkModeTest S 60 Ch7.part7_1.generated.BenchmarkModeTest_iterativeSum_jmhTest S 12 iterativeSum S 11 AverageTime E A 1 1 1 E E E E E E E I 1 2 E E L 2 6 -Xms4G 6 -Xmx4G E E E U 12 MILLISECONDS E E 
+JMH S 29 Ch7.part7_1.BenchmarkModeTest S 65 Ch7.part7_1.generated.BenchmarkModeTest_parallelRangedSum_jmhTest S 17 parallelRangedSum S 11 AverageTime E A 1 1 1 E E E E E E E I 1 2 E E L 2 6 -Xms4G 6 -Xmx4G E E E U 12 MILLISECONDS E E 
+JMH S 29 Ch7.part7_1.BenchmarkModeTest S 61 Ch7.part7_1.generated.BenchmarkModeTest_sequentialSum_jmhTest S 13 sequentialSum S 11 AverageTime E A 1 1 1 E E E E E E E I 1 2 E E L 2 6 -Xms4G 6 -Xmx4G E E E U 12 MILLISECONDS E E 
+JMH S 29 Ch7.part7_1.BenchmarkModeTest S 59 Ch7.part7_1.generated.BenchmarkModeTest_parallelSum_jmhTest S 11 parallelSum S 11 AverageTime E A 1 1 1 E E E E E E E I 1 2 E E L 2 6 -Xms4G 6 -Xmx4G E E E U 12 MILLISECONDS E E 
+JMH S 29 Ch7.part7_1.BenchmarkModeTest S 57 Ch7.part7_1.generated.BenchmarkModeTest_rangedSum_jmhTest S 9 rangedSum S 11 AverageTime E A 1 1 1 E E E E E E E I 1 2 E E L 2 6 -Xms4G 6 -Xmx4G E E E U 12 MILLISECONDS E E 

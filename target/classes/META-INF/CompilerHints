@@ -1,0 +1,11 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,Ch7/part7_1/BenchmarkModeTest.iterativeSum
+inline,Ch7/part7_1/BenchmarkModeTest.parallelRangedSum
+inline,Ch7/part7_1/BenchmarkModeTest.parallelSum
+inline,Ch7/part7_1/BenchmarkModeTest.rangedSum
+inline,Ch7/part7_1/BenchmarkModeTest.sequentialSum
+inline,Ch7/part7_1/BenchmarkModeTest.tearDown
